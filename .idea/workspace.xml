@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8515c2c6-b557-4f7d-ac1c-5471713e960f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailUnhappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckEmailUnhappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UiTestsCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UiTestsCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Email.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,29 +126,45 @@
       <option name="presentableId" value="Default" />
       <updated>1581858315901</updated>
     </task>
+    <task id="LOCAL-00001" summary="HomeTask1 fixed">
+      <created>1581944626540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581944626540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HomeTask1 fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeTask1 fixed" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1581944620363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581944620363" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581942729758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581942729758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581944150153">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581960964235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581944150153" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581944150151">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581960964235" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581960964234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581944150151" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581944150151">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581960964234" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581960964234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581944150151" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581944150152">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581960964234" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581960964235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581944150152" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581960964235" />
     <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581880434036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
