@@ -5,10 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailUnhappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckEmailUnhappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Email.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +30,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaHomeTasks/HomeTask6" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.CheckEmailUnhappyPath (1)">
+  <component name="RunManager" selected="TestNG.CheckEmailHappyPath (1)">
     <configuration name="CheckEmailHappyPath (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
       <option name="PACKAGE_NAME" value="" />
@@ -95,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckEmailUnhappyPath (1)" />
         <item itemvalue="TestNG.CheckEmailHappyPath (1)" />
+        <item itemvalue="TestNG.CheckEmailUnhappyPath (1)" />
         <item itemvalue="TestNG.CheckEmailUnhappyPath" />
         <item itemvalue="TestNG.CheckEmailHappyPath" />
         <item itemvalue="TestNG.UiTestsCases" />
@@ -133,38 +129,46 @@
       <option name="project" value="LOCAL" />
       <updated>1581944626540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HomeTask1 fixed2.0">
+      <created>1581974586371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581974586371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HomeTask1 fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeTask1 fixed" />
+    <MESSAGE value="HomeTask1 fixed2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeTask1 fixed2.0" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1581944620363">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1581974580054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581944620363" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581942729758">
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581974580054" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582040009481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581942729758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581960964235">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582040009481" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582318447096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581960964235" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581960964234">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582318447096" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582318447095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581960964234" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581960964234">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582318447095" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582318447094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581960964234" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581960964235">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582318447094" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582318447095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581960964235" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582318447095" />
     <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581880434036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -173,10 +177,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581944104353" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581942610952">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582317811371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581942610952" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582317811371" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581944391641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
