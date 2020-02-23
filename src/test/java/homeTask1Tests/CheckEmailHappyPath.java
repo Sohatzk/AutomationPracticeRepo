@@ -1,3 +1,6 @@
+package homeTask1Tests;
+
+import homeTask1.Email;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
