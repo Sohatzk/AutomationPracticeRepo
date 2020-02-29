@@ -2,23 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8515c2c6-b557-4f7d-ac1c-5471713e960f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeTask2/VarargsExampleMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2Tests/CheckAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2Tests/VarargsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestCheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestDropDownList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/WebDriverSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/VarargsExampleMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/CheckAssertions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/AutomationPracticeRepo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/VarargsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/.idea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeTask1/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailHappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailUnhappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailUnhappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UiTestsCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/UiTestsCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailHappyPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailUnhappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailUnhappyPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeTask1Tests/UiTestsCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/UiTestsCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeTask2Tests/CheckAssertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask2Tests/CheckAssertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestCheckBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestCheckBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestDropDownList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/TestDropDownList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumBaseApi/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/CheckEmailHappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/CheckEmailHappyPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/CheckEmailUnhappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/CheckEmailUnhappyPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/UiTestsCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/UiTestsCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask2Tests/CheckAssertions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeTask2Tests/CheckAssertions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/TestButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/TestButtons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/TestCheckBoxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/TestCheckBoxes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/TestDropDownList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/TestDropDownList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumBaseApi/WebDriverSettings.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,31 +52,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaHomeTasks/HomeTask6" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="homeTask2Tests" />
-      <recent name="homeTask2" />
-      <recent name="homeTask1" />
-      <recent name="" />
-      <recent name="java" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.VarargsTests">
-    <configuration name="CheckAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestDropDownList">
+    <configuration name="CheckEmailUnhappyPath (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeTask2Tests.*" />
+          <option name="PATTERN" value="homeTask1Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homeTask2Tests" />
-      <option name="MAIN_CLASS_NAME" value="homeTask2Tests.CheckAssertions" />
+      <option name="PACKAGE_NAME" value="homeTask1Tests" />
+      <option name="MAIN_CLASS_NAME" value="homeTask1Tests.CheckEmailUnhappyPath" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,10 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckEmailUnhappyPath (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestButtons" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckEmailUnhappyPath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
+      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.TestButtons" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -122,34 +123,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDropDownList.testDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UiTestsCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumBaseApi.*" />
+          <option name="PATTERN" value="homeTask1Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumBaseApi" />
-      <option name="MAIN_CLASS_NAME" value="seleniumBaseApi.TestDropDownList" />
-      <option name="METHOD_NAME" value="testDropDown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VarargsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPracticeRepo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeTask2Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homeTask2Tests" />
-      <option name="MAIN_CLASS_NAME" value="homeTask2Tests.VarargsTests" />
+      <option name="PACKAGE_NAME" value="homeTask1Tests" />
+      <option name="MAIN_CLASS_NAME" value="homeTask1Tests.UiTestsCases" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -159,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VarargsTests" />
-        <item itemvalue="TestNG.CheckAssertions" />
-        <item itemvalue="TestNG.TestDropDownList.testDropDown" />
         <item itemvalue="TestNG.TestDropDownList" />
         <item itemvalue="TestNG.TestCheckBoxes" />
+        <item itemvalue="TestNG.TestButtons" />
+        <item itemvalue="TestNG.UiTestsCases" />
+        <item itemvalue="TestNG.CheckEmailUnhappyPath (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -213,18 +196,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="HomeTask1 fixed2.0" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1582474304449">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1582928401765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582474304449" />
-    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582393990064">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582393990064" />
-    <state x="479" y="224" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582482504880">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="479" y="224" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1582482504880" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582928401765" />
     <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1581974580054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -233,38 +208,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582040009481" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582482601297">
+    <state width="974" height="179" key="GridCell.Tab.0.bottom" timestamp="1582936671790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582482601297" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582482601296">
+    <state width="974" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582936671790" />
+    <state width="974" height="179" key="GridCell.Tab.0.center" timestamp="1582936671790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582482601296" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582482601295">
+    <state width="974" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582936671790" />
+    <state width="974" height="179" key="GridCell.Tab.0.left" timestamp="1582936671789">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582482601295" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582482601296">
+    <state width="974" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582936671789" />
+    <state width="974" height="179" key="GridCell.Tab.0.right" timestamp="1582936671790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582482601296" />
-    <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1582381279882">
+    <state width="974" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582936671790" />
+    <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581880434036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582381279882" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1582388225158">
+    <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1581880434036" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1582916121468">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582388225158" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582379858041">
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582916121468" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582983743316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582379858041" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582983743316" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581944391641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581944391641" />
+    <state x="19" y="68" key="new project wizard" timestamp="1582931926199">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="19" y="68" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582931926199" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1581943617307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

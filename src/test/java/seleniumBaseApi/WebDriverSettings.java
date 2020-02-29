@@ -2,21 +2,15 @@ package seleniumBaseApi;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 
 public class WebDriverSettings {
-    private final String adress = "C:\\Users\\sohat\\IdeaProjects\\Drivers\\chromedriver.exe";
     WebDriver driver;
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", adress);
+        String address = "C:\\Users\\sohat\\IdeaProjects\\Drivers\\chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", address);
         driver = new ChromeDriver();
-    }
-
-    @AfterMethod
-    public void close() {
-        driver.quit();
     }
 }

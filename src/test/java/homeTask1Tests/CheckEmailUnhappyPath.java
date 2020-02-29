@@ -6,8 +6,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class CheckEmailUnhappyPath {
-    @DataProvider(name = "emailsForUnhappyPath")
-    public Object[][] dataProviderMethod() {
+    @DataProvider
+    public Object[][] unhappyEmailsData() {
         return new Object[][]{
                 {"sohatzkygmail.com"},
                 {"sohatzky@gmailcom"},
@@ -24,9 +24,9 @@ public class CheckEmailUnhappyPath {
                 {"sohatzky@gmail.COM"}};
     }
 
-    @Test(dataProvider = "emailsForUnhappyPath")
+    @Test(dataProvider = "unhappyEmailsData")
     public void checkUnhappyPath(String email) {
         boolean actualResult = Email.isEmailCorrect(email);
-        Assert.assertFalse(actualResult, "Email is expected to be incorrect, but it's correct");
+        Assert.assertFalse(actualResult, "Email " + email + " is expected to be incorrect, but it's correct");
     }
 }

@@ -11,7 +11,7 @@ public class CheckAssertions {
     public void testMethod1() {
         Assert.assertEquals("String", "String", "Strings are not equal");
         Assert.assertEquals("String", "String");
-        Assert.assertEquals(true, false, "boleans are not equal");
+        Assert.assertEquals(true, false, "booleans are not equal");
         Assert.assertEquals(true, true);
         Assert.assertEquals(Arrays.asList("foo", "bar"), Arrays.asList("foo", "Not bar"),
                 "Elements of the collections are not equal");

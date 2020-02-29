@@ -2,38 +2,51 @@ package seleniumBaseApi;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TestDropDownList extends WebDriverSettings {
-    private String[] urls = {"https://formy-project.herokuapp.com/autocomplete", "https://formy-project.herokuapp.com/buttons",
-            "https://formy-project.herokuapp.com/checkbox", "https://formy-project.herokuapp.com/datepicker",
-            "https://formy-project.herokuapp.com/dragdrop", "https://formy-project.herokuapp.com/dropdown",
-            "https://formy-project.herokuapp.com/enabled", "https://formy-project.herokuapp.com/fileupload",
-            "https://formy-project.herokuapp.com/filedownload", "https://formy-project.herokuapp.com/keypress",
-            "https://formy-project.herokuapp.com/modal", "https://formy-project.herokuapp.com/scroll",
-            "https://formy-project.herokuapp.com/radiobutton", "https://formy-project.herokuapp.com/switch-window",
-            "https://formy-project.herokuapp.com/form"};
+    @DataProvider
+    public Object[][] urlAndXPathData() {
+        return new Object[][]{
+                {"//div[@class='dropdown-menu show']/a[1]", "https://formy-project.herokuapp.com/autocomplete"},
+                {"//div[@class='dropdown-menu show']/a[2]", "https://formy-project.herokuapp.com/buttons"},
+                {"//div[@class='dropdown-menu show']/a[3]", "https://formy-project.herokuapp.com/checkbox"},
+                {"//div[@class='dropdown-menu show']/a[4]", "https://formy-project.herokuapp.com/datepicker"},
+                {"//div[@class='dropdown-menu show']/a[5]", "https://formy-project.herokuapp.com/dragdrop"},
+                {"//div[@class='dropdown-menu show']/a[6]", "https://formy-project.herokuapp.com/dropdown"},
+                {"//div[@class='dropdown-menu show']/a[7]", "https://formy-project.herokuapp.com/enabled"},
+                {"//div[@class='dropdown-menu show']/a[8]", "https://formy-project.herokuapp.com/fileupload"},
+                {"//div[@class='dropdown-menu show']/a[9]", "https://formy-project.herokuapp.com/filedownload"},
+                {"//div[@class='dropdown-menu show']/a[10]", "https://formy-project.herokuapp.com/keypress"},
+                {"//div[@class='dropdown-menu show']/a[11]", "https://formy-project.herokuapp.com/modal"},
+                {"//div[@class='dropdown-menu show']/a[12]", "https://formy-project.herokuapp.com/scroll"},
+                {"//div[@class='dropdown-menu show']/a[13]", "https://formy-project.herokuapp.com/radiobutton"},
+                {"//div[@class='dropdown-menu show']/a[14]", "https://formy-project.herokuapp.com/switch-window"},
+                {"//div[@class='dropdown-menu show']/a[15]", "https://formy-project.herokuapp.com/form"}
+        };
+    }
 
     @BeforeMethod
-    @Override
-    public void setUp() {
-        super.setUp();
+    public void beforeClickDropDowns() {
         driver.get("https://formy-project.herokuapp.com/dropdown");
     }
 
-    @Test
-    public void testDropDown() throws InterruptedException {
-        for (int i = 1; i <= 15; i++) {
-            driver.findElement(By.id("dropdownMenuButton")).click();
-//            Thread.sleep(3000);
-            String xPath = "//div[@class='dropdown-menu show']/a" + "[" + i + "]";
-            driver.findElement(By.xpath(xPath)).click();
-//            Thread.sleep(3000);
-            Assert.assertEquals(driver.getCurrentUrl(), urls[i - 1], "The actual url doesn't match the expected");
-            driver.get("https://formy-project.herokuapp.com/dropdown");
-        }
+    @Test(dataProvider = "urlAndXPathData")
+    public void testDropDown(String[] urlAndXPath) {
+        driver.findElement(By.id("dropdownMenuButton")).click();
+        driver.findElement(By.xpath(urlAndXPath[0])).click();
+        Assert.assertEquals(driver.getCurrentUrl(), urlAndXPath[1],
+                "The actual url: \"" + driver.getCurrentUrl() + "\" - doesn't match the expected: \"" + urlAndXPath[1] + "\"");
+    }
+
+    @AfterClass
+    public void quitPage() {
+        driver.quit();
     }
 }
+
 
 

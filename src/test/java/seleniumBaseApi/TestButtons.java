@@ -1,12 +1,12 @@
 package seleniumBaseApi;
 
 import org.openqa.selenium.By;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TestButtons extends WebDriverSettings {
 
-    @BeforeMethod
+    @BeforeClass
     @Override
     public void setUp() {
         super.setUp();
@@ -78,6 +78,7 @@ public class TestButtons extends WebDriverSettings {
     public void testDropDownLink2() {
         driver.findElement(By.id("btnGroupDrop1")).click();
         driver.findElement(By.xpath("//a[text()='Dropdown link 2']")).click();
+        driver.quit();
     }
 
 }
