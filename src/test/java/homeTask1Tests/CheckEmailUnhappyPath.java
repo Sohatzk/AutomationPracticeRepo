@@ -1,3 +1,5 @@
+package homeTask1Tests;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -23,7 +25,7 @@ public class CheckEmailUnhappyPath {
 
     @Test(dataProvider = "unhappyEmailsData")
     public void checkUnhappyPath(String email) {
-        boolean actualResult = Email.isEmailCorrect(email);
+        boolean actualResult = homeTask1.Email.isEmailCorrect(email);
         Assert.assertFalse(actualResult, "Email " + email + " is expected to be incorrect, but it's correct");
     }
 }
