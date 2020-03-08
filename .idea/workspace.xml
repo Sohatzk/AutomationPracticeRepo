@@ -2,11 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8515c2c6-b557-4f7d-ac1c-5471713e960f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeTask1/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailHappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailUnhappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailUnhappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UiTestsCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/UiTestsCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/WebDriverSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testButtons/ButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testButtons/DropDownBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testButtons/TestButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testCheckBoxes/CheckBoxesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testCheckBoxes/TestCheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/InitialDropDownBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/InitialDropDownsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/TestDropDowns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/AutocompletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/ButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/CheckBoxPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/CompleteWebFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/DatePickerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/DropDownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/EnabledAndDisabledElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/FileDownLoadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/FileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/KeyAndMousePressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/ModalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/RadioButtonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/ScrollPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeTask2WithinPageFactory/testDropDowns/dropDownBoxPages/SwitchWindowPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +57,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaHomeTasks/HomeTask6" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.CheckEmailHappyPath (1)">
+  <component name="RunManager" selected="TestNG.TestDropDowns">
     <configuration name="CheckEmailHappyPath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,6 +95,40 @@
       <module name="AutomationPracticeRepo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="homeTask1Tests.CheckEmailUnhappyPath" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeRepo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeTask2WithinPageFactory.testButtons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeTask2WithinPageFactory.testButtons" />
+      <option name="MAIN_CLASS_NAME" value="homeTask2WithinPageFactory.testButtons.TestButtons" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDropDowns" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeRepo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeTask2WithinPageFactory.testDropDowns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeTask2WithinPageFactory.testDropDowns" />
+      <option name="MAIN_CLASS_NAME" value="homeTask2WithinPageFactory.testDropDowns.TestDropDowns" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -94,8 +149,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckEmailHappyPath (1)" />
-        <item itemvalue="TestNG.CheckEmailUnhappyPath (1)" />
+        <item itemvalue="TestNG.TestDropDowns" />
+        <item itemvalue="TestNG.TestButtons" />
         <item itemvalue="TestNG.CheckEmailUnhappyPath" />
         <item itemvalue="TestNG.CheckEmailHappyPath" />
         <item itemvalue="TestNG.UiTestsCases" />
@@ -148,6 +203,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="HomeTask1 fixed2.0" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1583705904729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583705904729" />
+    <state x="235" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583711520973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="235" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1583711520973" />
+    <state x="451" y="233" width="592" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583710529979">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="451" y="233" width="592" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1583710529979" />
     <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1581974580054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -156,22 +223,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582040009481" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583332854911">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583711248755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583332854911" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583332854911">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583711248755" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583711248754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583332854911" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583332854910">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583711248754" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583711248753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583332854910" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583332854911">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583711248753" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583711248754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583332854911" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583711248754" />
     <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581880434036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -192,5 +259,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581943617307" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1583709986151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583709986151" />
   </component>
 </project>
