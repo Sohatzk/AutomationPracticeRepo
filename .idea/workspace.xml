@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8515c2c6-b557-4f7d-ac1c-5471713e960f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/growTasks/Task1TestNameOfArticles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/growTasks/Task2TestAbilityToAskBBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/growTasks/Task1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/growTasks/TaskOneTestNameOfArticles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeTask1/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailHappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailHappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckEmailUnhappyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/CheckEmailUnhappyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UiTestsCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeTask1Tests/UiTestsCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Email.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailHappyPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckEmailUnhappyPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UiTestsCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/growTasks/Task1TestNameOfArticles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/growTasks/Task2TestAbilityToAskBBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/growTasks/TaskTwoTestAbilityToAskBBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homeTask1/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/homeTask1/Email.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/CheckEmailHappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/CheckEmailHappyPath.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/CheckEmailUnhappyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/CheckEmailUnhappyPath.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/UiTestsCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeTask1Tests/UiTestsCases.class" afterDir="false" />
@@ -35,6 +28,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1XtH9566e4lI6iyajMpSKld1SG4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,8 +53,8 @@
       <recent name="homeTask1Tests" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Task1TestNameOfArticles" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TaskTwoTestAbilityToAskBBC">
+    <configuration name="TaskOneTestNameOfArticles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +63,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="growTasks" />
-      <option name="MAIN_CLASS_NAME" value="growTasks.Task1TestNameOfArticles" />
+      <option name="MAIN_CLASS_NAME" value="growTasks.TaskOneTestNameOfArticles" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -71,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1TestNameOfArticles.testRightSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskOneTestNameOfArticles.testRightSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +80,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="growTasks" />
-      <option name="MAIN_CLASS_NAME" value="growTasks.Task1TestNameOfArticles" />
+      <option name="MAIN_CLASS_NAME" value="growTasks.TaskOneTestNameOfArticles" />
       <option name="METHOD_NAME" value="testRightSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -89,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1TestNameOfArticles.testSecondaryArticles" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskOneTestNameOfArticles.testSecondaryArticles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +98,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="growTasks" />
-      <option name="MAIN_CLASS_NAME" value="growTasks.Task1TestNameOfArticles" />
+      <option name="MAIN_CLASS_NAME" value="growTasks.TaskOneTestNameOfArticles" />
       <option name="METHOD_NAME" value="testSecondaryArticles" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -107,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1TestNameOfArticles.testSecondaryarticles" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskOneTestNameOfArticles.testSecondaryarticles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +116,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="growTasks" />
-      <option name="MAIN_CLASS_NAME" value="growTasks.Task1TestNameOfArticles" />
+      <option name="MAIN_CLASS_NAME" value="growTasks.TaskOneTestNameOfArticles" />
       <option name="METHOD_NAME" value="testSecondaryarticles" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -125,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2TestAbilityToAskBBC" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskTwoTestAbilityToAskBBC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeRepo" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +134,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="growTasks" />
-      <option name="MAIN_CLASS_NAME" value="growTasks.Task2TestAbilityToAskBBC" />
+      <option name="MAIN_CLASS_NAME" value="growTasks.TaskTwoTestAbilityToAskBBC" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,13 +142,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.TaskOneTestNameOfArticles" />
+      <item itemvalue="TestNG.TaskOneTestNameOfArticles.testRightSearch" />
+      <item itemvalue="TestNG.TaskOneTestNameOfArticles.testSecondaryArticles" />
+      <item itemvalue="TestNG.TaskOneTestNameOfArticles.testSecondaryarticles" />
+      <item itemvalue="TestNG.TaskTwoTestAbilityToAskBBC" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Task1TestNameOfArticles.testRightSearch" />
-        <item itemvalue="TestNG.Task1TestNameOfArticles" />
-        <item itemvalue="TestNG.Task2TestAbilityToAskBBC" />
-        <item itemvalue="TestNG.Task1TestNameOfArticles.testSecondaryArticles" />
-        <item itemvalue="TestNG.Task1TestNameOfArticles.testSecondaryarticles" />
+        <item itemvalue="TestNG.TaskTwoTestAbilityToAskBBC" />
+        <item itemvalue="TestNG.TaskOneTestNameOfArticles" />
+        <item itemvalue="TestNG.TaskOneTestNameOfArticles.testRightSearch" />
+        <item itemvalue="TestNG.TaskOneTestNameOfArticles.testSecondaryArticles" />
+        <item itemvalue="TestNG.TaskOneTestNameOfArticles.testSecondaryarticles" />
       </list>
     </recent_temporary>
   </component>
@@ -210,22 +217,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582040009481" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583331880498">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1584893117687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583331880498" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583331880498">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584893117687" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1584893117685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583331880498" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583331880498">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584893117685" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1584893117684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583331880498" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583331880498">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584893117684" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1584893117686">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583331880498" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584893117686" />
     <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1581880434036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -242,9 +249,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581944391641" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1581943617307">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1584888771129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581943617307" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584888771129" />
   </component>
 </project>
